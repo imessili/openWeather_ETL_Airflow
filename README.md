@@ -34,6 +34,13 @@ This project is a simple ETL pipeline that uses **Apache Airflow** to extract we
 
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/4d8f9102-47ef-4777-b535-23bf478020e7" />
 
+## Security
+
+To ensure that sensitive information like the API key and API URL are not exposed in the codebase:
+
+- **Airflow Variables** were used to store the `OPEN_WEATHER_API_KEY` and `OPEN_WEATHER_BASE_URL`.
+- These variables are securely managed within the Airflow UI (`Admin > Variables`) or CLI.
+
 ---
 
 # (Francais) OpenWeather ETL Pipeline avec Airflow
@@ -68,3 +75,10 @@ Ce projet est un pipeline ETL simple qui utilise **Apache Airflow** pour extrair
 `open_weather.open_weather_api_tbl` enregistre:
 
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/4d8f9102-47ef-4777-b535-23bf478020e7" />
+
+## Securité 
+
+Pour garantir que les informations sensibles comme la clé API et l'URL de l'API ne soient pas exposées dans le code :
+
+- Des **Variables Airflow** ont été utilisées pour stocker `OPEN_WEATHER_API_KEY` et `OPEN_WEATHER_BASE_URL`.
+- Ces variables sont gérées de manière sécurisée via l’interface Airflow (`Admin > Variables`) ou via la ligne de commande.

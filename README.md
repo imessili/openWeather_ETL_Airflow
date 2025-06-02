@@ -1,4 +1,4 @@
-# EN OpenWeather ETL Pipeline with Airflow
+# (English) OpenWeather ETL Pipeline with Airflow
 
 This project is a simple ETL pipeline that uses **Apache Airflow** to extract weather data from (Europe Only countries), transform it, and load it into a **PostgreSQL** database.
 
@@ -36,7 +36,7 @@ This project is a simple ETL pipeline that uses **Apache Airflow** to extract we
 
 ---
 
-# 🇫🇷 OpenWeather ETL Pipeline avec Airflow
+# (Francais) OpenWeather ETL Pipeline avec Airflow
 
 Ce projet est un pipeline ETL simple qui utilise **Apache Airflow** pour extraire des données météo via l'**API OpenWeatherMap**, les transformer et les charger dans une base de données **PostgreSQL**.
 
